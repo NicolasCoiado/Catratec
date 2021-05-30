@@ -10,10 +10,10 @@ O Framework utilizado para auxiliar na construção do site foi o Bootstrap V5.0
 
 # O Design
 O design do wireframe foi feito utilizando-se do Adobe XD.
-
+![aqui](wireframe.png)
 ---
 
-# O circuto
+# O Circuto
 O circuito criado para a construção do Catratec está disponível no site chamado Tinkercad, e caso queira ter acesso a ele, basta clicar [aqui](https://www.tinkercad.com/things/kRoyELoSiHs).
 
 ---
