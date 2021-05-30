@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /* Import Bebas Neue Font*/
+
+/* ================= Geral Adjusts ================= */
+h1{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+p{
+    border: solid black;
+    border-width: 4px;
+    padding: 2%;
+    font-family: 'bahnschrift', 'arial';
+}
+footer{
+    background-color: blue;
+    height: 20%;
+    width: 10%;
+}
+
+/* ================= Adjust IDs ================= */
+#logo{
+    width:30%;
+}
+
+#textos{
+    position: relative;
+    left: 0%;
+    width: 100%;
+    padding: 5%;
+}
+
+#carrosel{
+    text-align: center;
+    height: 100%;
+}
+#ajuste_video{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+    
+#video{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+ #ajuste_tinkercad{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+#tinkedcad{
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #itens-escritos{
+    font-family:'Bebas Neue', cursive; 
+    position: absolute;
+    top: 30%;
+    left: 60%;
+
+  }
+  #final{
+      color: white;
+      font-family: 'bahnschrift', 'arial';
+  }
+
+
+
+/* ================= RESPONSIVE NAVBAR WRITTEN ================= */
+
+  @media(max-width: 1920px){
+    #NavDrop{
+      display: none;
+  }
+  
+}
+  @media(max-width: 1450px){
+      #itens-escritos{
+          top: 30%;
+          left: 50%;
+      }
+      #NavDrop{
+        display: none;
+    }
+    
+  }
+  @media(max-width: 1150px){
+    #itens-escritos{
+        font-size: 90%;
+        top: 35%;
+    
+    }
+    #NavDrop{
+        display: none;
+    }
+    
+}
+    @media(max-width: 1080px){
+        #itens-escritos{
+            font-size: 80%;
+            top: 40%;
+            left: 50%;
+        }
+        #NavDrop{
+            display: none;
+        }
+        
+}
+
+@media(max-width: 1000px){
+    #itens-escritos{
+        font-size: 80%;
+        top: 30%;
+        left: 45%;
+    }
+    #NavDrop{
+        display: none;
+    }
+    
+}
+
+@media(max-width: 900px){
+    #itens-escritos{
+        font-size: 70%;
+        top: 30%;
+        left: 45%;
+    }
+    #NavDrop{
+        display: none;
+    }
+    
+}
+
+@media(max-width: 840px){
+    #itens-escritos{
+        font-size: 60%;
+        top: 35%;
+        left: 45%;
+    }
+    #NavDrop{
+        display: none;
+    }
+    
+}
+@media(max-width: 745px){
+    #NavLetras{
+        display: none;
+    }
+    #NavDrop{
+        display: flex;
+    }
+    
+}
+
+/* =============== RESPONSIVE NAVBAR LIST ================= */
+
+#NavDrop{
+    font-size: 130%;
+    font-family:'bahnschrift', 'arial';
+}
+
+#dropdown{
+    display: flex;
+    position:absolute;
+    left: 76%;
+}
+
+#dropdown-itens{
+    font-size: 40%;
+}
+
+/* =============== RESPONSIVE FOOTER LIST ================= */
+
+#ctt{
+    color: white;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    font-family: 'bahnschrift', 'arial';
+}
+
+#mini-ctt{
+    color: white;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    font-family: 'bahnschrift', 'arial';
+    display: none;
+}
+
+@media(max-width: 600px){
+    #ctt{
+        display: none;
+    }
+    #mini-ctt{
+        display: block;
+    }
+    
+}
